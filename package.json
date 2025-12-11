@@ -10,5 +10,8 @@
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "@types/node": "^25.0.0"
+  },
+  "dependencies": {
+    "node-js": "^1.0.0"
   }
 }
