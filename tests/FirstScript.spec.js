@@ -1,4 +1,3 @@
-  npx// @ts-check
 import { test, expect } from '@playwright/test';
 
 test('Login page', async ({ page }) => {
