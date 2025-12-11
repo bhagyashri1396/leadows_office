@@ -8,6 +8,7 @@ test('Login page', async ({ page }) => {
   console.log('Page title is:', pageTitle);
 
   await expect(page).toHaveTitle('Twine-Login');
+  console.log('Test console log: Title matched successfully');
 
   const pageURL = page.url();
   console.log('Page URL is:', pageURL);
